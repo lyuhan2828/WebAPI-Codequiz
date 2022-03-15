@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(228, 205, 112);
+}
+
+header {
+  padding: 20px 35px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: -webkit-sticky;
+  position: center;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: 80%;
+}
+
+/* default state */
+button {
+  background: white;
+}
+
+/* mouse is hovering over button */
+button:hover {
+  background-color: rgb(197, 224, 197);
+}
+
+/* user is actively pressing the cursor down on the button */
+button:active {
+  background: rgb(200, 200, 226);
+}
+
+h1 {
+  text-align: center;
+}
+
+#rush {
+  flex-wrap: wrap;
+  text-align: right;
+  font-size: 30px;
+  width: 100%;
+  padding-bottom: 10px;
+}
