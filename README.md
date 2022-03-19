@@ -1,13 +1,15 @@
-Acceptance Criteria
 
-GIVEN I am taking a code quiz
-WHEN I click the start button
-THEN a timer starts and I am presented with a question
-WHEN I answer a question
-THEN I am presented with another question
-WHEN I answer a question incorrectly
-THEN time is subtracted from the clock
-WHEN all questions are answered or the timer reaches 0
-THEN the game is over
-WHEN the game is over
-THEN I can save my initials and score
+
+Time starts When click the start button
+
+The questions shows up when I click start button
+
+If Answer is incorrect, the timer will subtract 10 seconds
+
+If the Answer is correct the timer add 10 seconds
+
+Timer stops when the Quiz is done
+
+Shows Score after Quiz
+
+It will restart the Quiz if the button Restart Quiz is pressed

@@ -27,7 +27,7 @@
       <button type="button" id="start">Start Quiz</button>
     </div>
     <!-- quiz -container -->
-    <div class="quiz-container">
+    <div id="quiz-container">
       <!-- question container -->
       <div id="questions" style="display: none">
         <h2 id="question"></h2>
@@ -36,16 +36,15 @@
         </div>
       </div>
     </div>
-
-    <h1 id="title">All Done!</h1>
-    <div id="scoreboard">
+    <div id="scoreboard" style="display: none">
+      <h1 id="title">All Done!</h1>
       <img src="" alt="" />
       <h2 id="score-title">Your Score</h2>
       <h2 id="score"></h2>
-      <button type="button" id="score-btn" onclick="backToQuiz">
-        Back to Quiz
+      <button type="button" id="score-btn" onclick="backToQuiz()">
+        Restart Quiz
       </button>
-      <button type="button" id="check-answer" onclick="checkAnswer">
+      <button type="button" id="check-answer" onclick="checkAnswer()">
         Check Answer
       </button>
     </div>
