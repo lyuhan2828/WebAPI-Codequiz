@@ -1,7 +1,7 @@
 var playerName = window.prompt("What is your initial?");
 var timeRel = document.getElementById("countdown");
 var mainRel = document.getElementById("rush");
-var timeLeft = 75;
+var timeLeft = 50;
 var start = document.getElementById("start");
 var questionsContainer = document.getElementById("questions");
 var question = document.getElementById("question");
@@ -53,8 +53,26 @@ var questionBank = [
     option: ["JavaScript", "Terminal Bash", "for loops", "console.log"],
     answer: "console.log",
   },
+  {
+    questionBank:
+      "Which of the following methods is used to access HTML elements using Javascript?",
+    option: ["getElementById()", "getElementByClassName()", "Both A and B", "None of the above"],
+    answer: "Both A and B",
+  },
+  {
+    questionBank:
+      "How can a datatype be declared to be a constant type?",
+    option: ["const", "var", "let", "constant"],
+    answer: "const",
+  },
+  {
+    questionBank:
+      "How to stop an interval timer in Javascript?",
+    option: ["clearTimer", "clearInterval", "intervalOver", "None of the above"],
+    answer: "clearInterval",
+  },
 ];
-// Timer counts down from 75
+// Timer counts down from 50
 function countdown() {
   // Use the `setInterval()` method to call a function to be executed every 1000 milliseconds
   timeInterval = setInterval(function () {

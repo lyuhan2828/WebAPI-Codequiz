@@ -39,6 +39,20 @@ header {
   background-attachment: fixed;
   background-position: 80%;
 }
+a {
+  background: white;
+}
+
+a {
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+  box-sizing: border-box;
+  margin: 0em;
+  padding: 1px 6px;
+  border-style: outset;
+  border-image: initial;
+}
 
 p {
   text-align: center;
